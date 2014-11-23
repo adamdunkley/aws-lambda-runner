@@ -13,7 +13,7 @@ Options include:
 * `quiet=0` - If switched to `1`, removes all output except the script log
 * `script_directory=./` - The directory in which the script will run. Defaults to the current directory which is almost never what you actually want
 * `input_file_name=test-input.json` - The name of the test input JSON file (relative to the test script directory) you'd like to pass to the runner
-* `handler_name=index.handler` - The handler that Lambda will execute, format: {file_name}.{exported_function_name} 
+* `handler_name=index.handler` - The handler that Lambda will execute, format: `{file_name}.{exported_function_name}`
 * `region=eu_west_1` - The AWS region to the run it in (defaults to my region because I am a narcissist)
 * `script_timeout=60` - The timeout for the execution (affects expense)
 * `script_max_memory=128` – The max memory (in MB) that the execution can go to (affects expense)
