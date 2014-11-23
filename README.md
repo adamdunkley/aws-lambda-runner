@@ -22,6 +22,10 @@ Options include:
 
 Note: Do not hammer `ctrl^c` to kill the application as you'll probably kill the cleanup that deletes the lambda function (creating lots of redundant scripts in your Lambda function list). Just press it once and wait.
 
+## Attributions
+
+* @ehammond's scripts on Lambda were a major inspiration (especially grabbing the logs over CloudWatch), read his blog: http://alestic.com/
+
 ## Contributing
 
 This is released under a GNU General Public License. If you want to contribute please fork and make a pull request, my Bash skills suck and there's plenty that still needs to be done to make this an even better experience. Thanks!
