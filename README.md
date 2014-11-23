@@ -5,7 +5,7 @@ A bash script script for easily running AWS Lambda functions (node packages), se
 ## Usage
 
 ```
-bash lambda_execution_role_arn=$YOUR_ARN script_directory=/package/path runner.sh 
+lambda_execution_role_arn=$YOUR_ARN script_directory=/package/path bash runner.sh 
 ```
 
 Options include:
