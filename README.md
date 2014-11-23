@@ -24,7 +24,7 @@ Note: Do not hammer `ctrl^c` to kill the application as you'll probably kill the
 
 ## Attributions
 
-* @ehammond's scripts on Lambda were a major inspiration (especially grabbing the logs over CloudWatch), read his blog: http://alestic.com/
+* [@ehammond](https://github.com/ehammond)'s scripts on Lambda were a major inspiration (especially grabbing the logs over CloudWatch), read his blog: http://alestic.com/
 
 ## Contributing
 
